@@ -1,11 +1,6 @@
-from setuptools import setup
+from setuptools import setup, find_packages
 
 setup(
     name='sample.two',
-    packages=[
-        'sample.two',
-    ],
-    namespace_packages=[
-        "sample",
-    ]
+    packages=find_packages()
 )
